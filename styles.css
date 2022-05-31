@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Advent Pro', sans-serif;
+}
+#header {
+    background-color: #000080;
+    padding: 15px;
+}
+
+#welcome {
+    font-size: larger;
+    font-weight: 600;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contentbox {
+    border-color: #000080;
+    border-style:solid;
+    margin: 4px 0px;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+}
+
+.contenttitle {
+    background-color: #000080;
+    color: #aaaaaa;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.contents {
+    list-style-type:'⬗  ';
+}
+
+#footer {
+    border-top: 1px solid #aaaaaa;
+    padding: 0px 10px;
+    margin-top: 15px;
+}
